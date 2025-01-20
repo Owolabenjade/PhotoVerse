@@ -5,6 +5,16 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.photo-token]
+path = 'contracts/photo-token.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.phototoken]
+path = 'contracts/phototoken.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.photoversev1]
 path = 'contracts/photoversev1.clar'
 clarity_version = 2
